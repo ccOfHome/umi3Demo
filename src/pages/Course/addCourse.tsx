@@ -91,8 +91,8 @@ const addCourse = () => {
       </Form.Item>
       <Form.Item
         label="课程总价"
-        name="totalprice"
-        rules={[{ required: true, message: 'Please input your totalprice!' }]}
+        name="totalPrice"
+        rules={[{ required: true, message: 'Please input your totalPrice!' }]}
       >
         <Input />
       </Form.Item>
